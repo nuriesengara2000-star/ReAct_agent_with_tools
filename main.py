@@ -98,14 +98,14 @@ def run_agent(user_query: str):
 
 
 if __name__ == "__main__":
-    print("🤖 ReAct агент запущен")
+    print(" ReAct агент запущен")
     print("Введите вопрос (или 'exit' для выхода):\n")
 
     while True:
         query = input("Вы: ")
 
         if query.lower() in ("exit", "quit"):
-            print("Агент завершён 👋")
+            print("Агент завершён ")
             break
 
         run_agent(query)
